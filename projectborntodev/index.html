@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมคำนวณหาแคลอรี่ที่ควรได้รับต่อวัน</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>โปรแกรมคำนวณหาแคลอรี่ที่ควรได้รับต่อวัน</h1>
+        <div>
+            <label for="age">อายุของคุณ</label>
+            <input id = "age"type="number">
+        </div
+        <div>
+            <label for="weight">น้ำหนักของคุณ (kg)</label>
+            <input id = "weight" type="number">
+        </div>
+        <div>
+            <label for="high">ส่วนสูงของคุณ (cm)</label>
+            <input id = "high"type="number">
+        </div>
+        <div>
+            <form>
+            <label for="sex">เพศของคุณ</label>
+            <select name="sex" id="sex">
+                <option value="1">ชาย</option>
+                <option value="2">หญิง</option>
+            </select>
+        </form>
+        </div>
+        
+        <div>
+            <button onclick="claoday()">คำนวณหาแคลอรี่ที่ควรได้รับต่อวัน</button>
+        </div>
+        <p id = "cla"></p>
+    </center>
+    <script src="nameraidee.js"></script>
+</body>
+</html>
